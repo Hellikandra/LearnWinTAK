@@ -121,7 +121,7 @@
 
     {{ $list := slice }}
     {{- if and (isset .Site.Params.flexsearch "searchsectionsindex") (not (eq (len .Site.Params.flexsearch.searchSectionsIndex) 0)) }}
-        {{- if eq .Site.Params.flexsearch.searchSectionsIndex "ALL" }}
+        {{- if eq .Site.Params.docs.searchSectionsIndex "ALL" }}
             {{- $list = .Site.Pages }}
         {{- else }}
             {{- $list = (where .Site.Pages "Type" "in" .Site.Params.flexsearch.searchSectionsIndex) }}
@@ -130,7 +130,7 @@
         {{- end }}
         {{- end }}
     {{- else }}
-        {{- $list = (where .Site.Pages "Section" ($.Scratch.Get "pathName")) }}
+        {{- $list = (where .Site.Pages "Section" (.Site.Params.docs.pathName | default "docs")) }}
     {{- end }}
 
     {{ $len := (len $list) -}}
@@ -156,7 +156,7 @@
     function show_results(){
         const maxResult = {{ .Site.Params.flexsearch.maxResult | default 5}};
         const minlength = {{ .Site.Params.flexsearch.minQueryChar | default 0}};
-        var searchQuery = sanitizeHTML(this.value);
+        var searchQuery = this.value;
         var results = index.search(searchQuery, {limit: maxResult, enrich: true});
 
         // flatten results since index.search() returns results for each indexed field
