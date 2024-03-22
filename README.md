@@ -15,3 +15,6 @@ Use "issues" to report any problems with instructions or demo plugins.
 GNU General Public License. Following similar as [licensing to ATAK-CIV](https://github.com/deptofdefense/AndroidTacticalAssaultKit-CIV/blob/master/LICENSE.md)
 
 Take into consideration theat the WinTAK-CIV side is mainly maintenained and distributed via [tak.gov](tak.gov)
+
+## References - Credit
+This repository using the same structure as [Github Repository LearnATAK](https://github.com/Toyon/LearnATAK) with the website [LearnATAK](https://toyon.github.io/LearnATAK/.)

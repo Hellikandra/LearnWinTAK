@@ -54,4 +54,4 @@ Checkout the [Machine Learning](../machine_learning/) folder for an introduction
 
 #### Have Questions? Need More Help ?
 
-Checkout the [Common FAQs](../common_issues_and_faqs/)
+Checkout the [Common FAQs](common_issues_and_faqs/)
