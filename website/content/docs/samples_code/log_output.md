@@ -14,6 +14,8 @@ This page describes how to log information from a WinTAK plugin. Developing a Wi
 
 - [Visual Studio Output](#visual-studio-output)
 - [WinTAK Framework Logs](#wintak-framework-logs)
+    - [WinTAK Logger](#wintak-logger)
+    - [WinTAK Log](#wintak-log)
 ___
 
 <br>
@@ -40,7 +42,7 @@ The `%APPDATA%/WinTAK/Logs` contains a series of pre-formatted files which are :
 
 This section describe the ILogger interface which is defined in WinTak.Framework. This Interface provide the possibility to directly logging into the WinTak Logs folder.
 
-```csharp
+```cs
     using WinTak.Framework;
     .. 
     public ILogger _logger;
@@ -60,17 +62,17 @@ This section describe the ILogger interface which is defined in WinTak.Framework
 
 The possibilities of ILogger are :
 
-- `ILogger.Debug` for ***DEBUG*** with the possibility to extend `Exception`
-- `ILogger.Error` for ***ERROR*** with the possibility to extend `Exception`
-- `ILogger.Fatal` for ***FATAL*** with the possibility to extend `Exception`
-- `ILogger.Info` for ***INFO*** with the possibility to extend `Exception`
-- `ILogger.Warn` for ***WARNING*** with the possibility to extend `Exception`
+- `ILogger.Debug` for **DEBUG** with the possibility to extend `Exception`
+- `ILogger.Error` for **ERROR** with the possibility to extend `Exception`
+- `ILogger.Fatal` for **FATAL** with the possibility to extend `Exception`
+- `ILogger.Info` for **INFO** with the possibility to extend `Exception`
+- `ILogger.Warn` for **WARNING** with the possibility to extend `Exception`
 
 ### WinTAK Log
 
 This section describe the Log Class which is the same as ATAK developer already use. This class :
 
-```csharp
+```cs
     using MapEngine.Interop.Util;
     ..
     internal const string TAG = "TheFaboulousClassName"
