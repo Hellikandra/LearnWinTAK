@@ -5,7 +5,7 @@ icon: "icon/svg/extension.svg"
 date: "2024-03-19T09:03:58+01:00"
 lastmod: "2024-03-19T09:03:58+01:00"
 draft: false
-weight: 170
+weight: 600
 ---
 
 - [Hello World Demo Plugin](demo-hello-world/)

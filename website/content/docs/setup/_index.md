@@ -5,7 +5,7 @@ icon: "icon/svg/tool.svg"
 date: "2024-03-19T09:49:36+01:00"
 lastmod: "2024-03-19T09:49:36+01:00"
 draft: false
-weight: 20
+weight: 100
 ---
 
 1. [Microsoft Visual Studio Setup](visual_studio_setup/)

@@ -5,7 +5,7 @@ icon: "icon/svg/guidelines.svg"
 date: "2024-03-19T09:41:05+01:00"
 lastmod: "2024-03-19T09:41:05+01:00"
 draft: false
-weight: 370
+weight: 900
 ---
 
 This repository is a learning resource for new or veteran C# developers to understand the fundamentals of developing plugins for Windows Tactical Awareness Kit (WinTAK). The maintainers of this repository are not official maintainers or representatives of the WinTAK development team. This issue tracker is not the best place to ask questions about standard WinTAK functionality. For those kinds of questions, please first consult the 

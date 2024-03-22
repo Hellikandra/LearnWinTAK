@@ -4,7 +4,7 @@ icon: "icon/svg/fundamental.svg"
 date: "2024-03-19T09:05:06+01:00"
 lastmod: "2024-03-19T09:05:06+01:00"
 draft: false
-weight: 80
+weight: 210
 ---
 This section will introduce common CSharp (C#) components and concepts that will help you to understand the demo plugins and get started with creating your own plugin. THe [C# developer website docs](https://learn.microsoft.com/en-us/dotnet/framework/) cover all topics discussed in this section in greater detail and are maintained with the latest changes to C#. This section guides you to the pages within the developer docs that provide a fondation of C# principles needed for WinTAK development.
 
