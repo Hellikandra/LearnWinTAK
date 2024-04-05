@@ -24,7 +24,7 @@ ___
 
 On of the first entrypoint to debug code is to use one of the most common C# basic method to display it into Visual Studio Code :
 
-```csharp
+```cs
     System.Diagnostics.Debug.WriteLine("Hello World!");
 ```
 

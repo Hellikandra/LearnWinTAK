@@ -30,6 +30,8 @@ As mentionned in [Visual Studio 2022 Product Family System Requirements](https:/
     If the option is not available during the installation of the Microsoft Visual Studio, there is a possiblity to download the .NET Framework and add it later in Microsoft Visual Studio.
     The weblink to download [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
 
+
+
 ## Getting Familiar with Visual Studio
 
 If this is your first time using Microsoft Visual Studio IDE we recommend checking out the following resources in order to familiarize yourself with the terminology of the editor which will be used in later learning modules.
