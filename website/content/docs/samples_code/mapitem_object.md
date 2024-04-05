@@ -13,7 +13,7 @@ This page describes how to log information from a WinTAK plugin.
 ### Contents
 
 - [MapItem object](#mapitem-object)
-- [Code Example](#code-example)
+- [Code Example](#code-examples)
     - [Select](#select)
     - [Pan and Zoom](#pan-and-zoom)
     - [Loop all available](#loop-all-available)
@@ -24,7 +24,7 @@ ___
 
 ## MapItem object
 
-## Code example
+## Code examples
 
 ### Select 
 
